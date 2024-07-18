@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foody</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css//media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- menu -->
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <a href="#home" class="logo">Foody</a>
+
+        <!-- toggle button -->
+        <span class="navbar-toggler">
+          <i class="fas fa-bars"></i>
+        </span>
+
+        <!-- menu items -->
+        <ul class="menu-items">
+          <li>
+            <span class="navbar-toggler cls">
+              <i class="fa fa-circle-xmark"></i>
+            </span>
+          </li>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#food-category">Category</a>
+          </li>
+          <li>
+            <a href="#food-menu">Menu</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="showcase" class="showcase-area">
+      <div class="showcase-container" id="home">
+        <h1 class="main-title">Welcome to <span class="sub">Foody</span></h1>
+        <p>Explore the best foods from the world</p>
+        <a href="#food-menu" class="btn btn-primary btn-small">Menu</a>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>We've been making healthy food last for 10 years</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            nostrum natus praesentium laborum eveniet, ex velit consequatur
+            molestias sed veritatis sequi excepturi doloremque a repellat
+            corrupti! Eveniet ullam soluta vitae?
+          </p>
+        </div>
+        <div class="about-img">
+          <img
+            src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg"
+            alt="no img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- food category -->
+    <section id="food-category">
+      <h2>Types of Food</h2>
+      <div class="food-container container">
+        <div class="food-type fruit">
+          <div class="img-container">
+            <img src="./assets/fruit.jpg" alt="fruit" />
+            <div class="img-content">
+              <h3>Fruits</h3>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="food-type veg">
+          <div class="img-container">
+            <img src="./assets/veg.jpg" alt="veg" />
+            <div class="img-content">
+              <h3>Veg</h3>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="food-type grain">
+          <div class="img-container">
+            <img src="./assets/grain.jpg" alt="grain" />
+            <div class="img-content">
+              <h3>Fruits</h3>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
