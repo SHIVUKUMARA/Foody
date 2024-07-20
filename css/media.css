@@ -28,15 +28,39 @@
     margin-top: 10px;
   }
 
-  .navbar-container .main-title {
-    font-size: 4rem;
+  /* showcase */
+  .showcase-container .main-title {
+    font-size: 2.5rem;
     color: var(--primary);
   }
 
-  /* category */
-
-  .food-container{
+  /* Category */
+  .food-container {
     flex-direction: column;
     gap: 20px;
+  }
+
+  /* food menu */
+  .food-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* Testimonial section */
+  .testimonial-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  /* contact */
+  .contact-container {
+    display: block;
+  }
+
+  .contact-img,
+  .form-container {
+    width: 100%;
   }
 }
